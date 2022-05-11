@@ -4,9 +4,9 @@
 
 
 # Fundamentos
-### [Bloco 01: Unix & Bash]()
-### [Bloco 02: Git, GitHub e Internet]()
-### [Bloco 03: Introdução à HTML e CSS]()
+### [Bloco 01: Unix & Bash](https://github.com/LuizHenriquePy/trybe-exercicios/tree/master/fundamentos/bloco1-unix-e-bash)
+### [Bloco 02: Git, GitHub e Internet](https://github.com/LuizHenriquePy/trybe-exercicios/tree/master/fundamentos/bloco2-git-github-internet)
+### [Bloco 03: Introdução à HTML e CSS](https://github.com/LuizHenriquePy/trybe-exercicios/tree/master/fundamentos/bloco3-introducao-html-css)
 ### [Bloco 04: Introdução à JavaScript e Lógica de Programação]()
 ### [Bloco 05: JavaScript: DOM, Eventos e Web Storage]()
 ### [Bloco 06: HTML e CSS: Forms, Flexbox e Responsivo]()
