@@ -7,7 +7,7 @@
 - [x] [Bloco 01: Unix & Bash](https://github.com/LuizHenriquePy/trybe-exercicios/tree/master/fundamentos/bloco1-unix-e-bash)
 - [x] [Bloco 02: Git, GitHub e Internet](https://github.com/LuizHenriquePy/trybe-exercicios/tree/master/fundamentos/bloco2-git-github-internet)
 - [x] [Bloco 03: Introdução à HTML e CSS](https://github.com/LuizHenriquePy/trybe-exercicios/tree/master/fundamentos/bloco3-introducao-html-css)
-- [ ] [Bloco 04: Introdução à JavaScript e Lógica de Programação]()
+- [x] [Bloco 04: Introdução à JavaScript e Lógica de Programação](https://github.com/LuizHenriquePy/trybe-exercicios/tree/master/fundamentos/bloco4-introducao-a-javascript-e-logica-de-programacao)
 - [ ] [Bloco 05: JavaScript: DOM, Eventos e Web Storage]()
 - [ ] [Bloco 06: HTML e CSS: Forms, Flexbox e Responsivo]()
 - [ ] [Bloco 07: Introdução à JavaScript ES6 e Testes Unitários]()
