@@ -67,12 +67,18 @@
       main.className = "main-content";
       body.appendChild(main);
 
-      let section = document.createElement("section");
-      section.className = "center-content";
-      main.appendChild(section);
+      let sectionCenter = document.createElement("section");
+      sectionCenter.className = "center-content";
+      main.appendChild(sectionCenter);
 
       let p = document.createElement("p");
-      section.appendChild(p);
+      sectionCenter.appendChild(p);
+
+      let sectionLeft = document.createElement("section");
+      sectionLeft.className = "left-content";
+      main.appendChild(sectionLeft);
+      
+
     </script>
   </body>
 </html>
