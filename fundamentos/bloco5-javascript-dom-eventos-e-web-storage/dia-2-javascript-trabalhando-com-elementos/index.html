@@ -61,6 +61,7 @@
 
       let title = document.createElement("h1");
       title.innerText = "Exercício 5.2 - JavaScript DOM";
+      title.className = "title";
       body.appendChild(title);
 
       let main = document.createElement("main");
@@ -98,6 +99,8 @@
 
       for (let index = 0; index !== 3; index += 1) {
         let h3 = document.createElement("h3");
+        h3.innerText = "Título " + index;
+        h3.className = "description";
         main.appendChild(h3);
       };
     </script>
