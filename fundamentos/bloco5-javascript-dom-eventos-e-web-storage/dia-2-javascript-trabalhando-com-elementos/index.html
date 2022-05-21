@@ -57,10 +57,17 @@
   </head>
   <body>
     <script>
+      let body = document.querySelector('body');
+
       let title = document.createElement("h1");
       title.innerText = "Exercício 5.2 - JavaScript DOM";
-      let body = document.querySelector('body');
       body.appendChild(title);
+
+      let main = document.createElement("main");
+      main.className = "main-content";
+      body.appendChild(main);
+
+
     </script>
   </body>
 </html>
