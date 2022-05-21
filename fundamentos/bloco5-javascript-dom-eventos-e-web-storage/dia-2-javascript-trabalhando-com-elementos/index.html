@@ -19,7 +19,7 @@
       }
 
       .main-content .center-content {
-        background-color: red;
+        background-color: green;
         width: 50%;
         margin-left: auto;
         margin-right: auto;
@@ -105,6 +105,10 @@
       };
 
       main.removeChild(sectionLeft)
+      
+      let items = document.querySelectorAll("ul li");
+      list.removeChild(items[9]);
+      list.removeChild(items[8]);
     </script>
   </body>
 </html>
