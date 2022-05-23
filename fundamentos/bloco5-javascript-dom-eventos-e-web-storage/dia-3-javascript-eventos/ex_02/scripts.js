@@ -26,8 +26,7 @@ function addDays () {
 
     if (item === 24 || item === 25 || item === 31) {
       listC.add('holiday');
-    };
-    if (item === 4 || item === 11 || item === 18 || item === 25) {
+    } else if (item === 4 || item === 11 || item === 18 || item === 25) {
       listC.add('friday')
     };
 
@@ -44,7 +43,22 @@ function addHolidayButton (text) {
   let button = document.createElement('button');
   button.id = 'btn-holiday';
   button.textContent = text;
+  button.addEventListener('click', changeColorOfHolidays);
   element.appendChild(button);
+};
+
+
+function changeColorOfHolidays (event) {
+  const holidays = document.querySelectorAll('.holiday');
+  if (holidays[0].style.background.indexOf('green', 0) !== -1) {
+    for (let item of holidays) {
+      item.style.background = 'rgb(238,238,238)';
+    };
+  } else {
+    for (let item of holidays) {
+      item.style.background = 'green';
+    };
+  };
 };
 
 addHolidayButton('Feriados');
