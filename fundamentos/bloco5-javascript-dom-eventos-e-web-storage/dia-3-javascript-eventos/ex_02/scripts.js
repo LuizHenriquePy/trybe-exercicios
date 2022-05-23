@@ -50,14 +50,16 @@ function addHolidayButton (text) {
 
 function changeColorOfHolidays (event) {
   const holidays = document.querySelectorAll('.holiday');
+  let color = '';
+  
   if (holidays[0].style.background.indexOf('green', 0) !== -1) {
-    for (let item of holidays) {
-      item.style.background = 'rgb(238,238,238)';
-    };
+    color = 'rgb(238,238,238)';
   } else {
-    for (let item of holidays) {
-      item.style.background = 'green';
-    };
+    color = 'green';
+  };
+
+  for (let item of holidays) {
+    item.style.background = color;
   };
 };
 
