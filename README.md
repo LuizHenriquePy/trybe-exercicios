@@ -8,7 +8,7 @@
 - [x] [Bloco 02: Git, GitHub e Internet](https://github.com/LuizHenriquePy/trybe-exercicios/tree/master/fundamentos/bloco2-git-github-internet)
 - [x] [Bloco 03: Introdução à HTML e CSS](https://github.com/LuizHenriquePy/trybe-exercicios/tree/master/fundamentos/bloco3-introducao-html-css)
 - [x] [Bloco 04: Introdução à JavaScript e Lógica de Programação](https://github.com/LuizHenriquePy/trybe-exercicios/tree/master/fundamentos/bloco4-introducao-a-javascript-e-logica-de-programacao)
-- [ ] [Bloco 05: JavaScript: DOM, Eventos e Web Storage]()
+- [x] [Bloco 05: JavaScript: DOM, Eventos e Web Storage](https://github.com/LuizHenriquePy/trybe-exercicios/tree/master/fundamentos/bloco5-javascript-dom-eventos-e-web-storage)
 - [ ] [Bloco 06: HTML e CSS: Forms, Flexbox e Responsivo]()
 - [ ] [Bloco 07: Introdução à JavaScript ES6 e Testes Unitários]()
 - [ ] [Bloco 08: Higher Order Functions do JavaScript ES6]()
