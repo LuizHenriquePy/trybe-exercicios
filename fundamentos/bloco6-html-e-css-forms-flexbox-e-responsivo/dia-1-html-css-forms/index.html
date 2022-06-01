@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TrybeTrip</title>
+</head>
+<body>
+  <form>
+    <fieldset>
+      <label for="input-name">Nome: <input type="text" placeholder="Digite seu nome completo" name="name" id="input-name" maxlength="50" minlength="10"></label>
+      <br>
+      <label for="input-email">E-mail: <input type="email" placeholder="Digite seu email" name="email" id="input-email" maxlength="50" minlength="10"></label>
+      <br>
+      <div>
+        Destino Preferido: <br>
+        <label for="cidade" class="input-radio"><input type="radio" name="destino-preferido" id="cidade">Cidade</label>
+        <label for="praia" class="input-radio"><input type="radio" name="destino-preferido" id="praia">Praia</label>
+        <label for="montanha" class="input-radio"><input type="radio" name="destino-preferido" id="montanha">Montanha</label>
+        <label for="campo" class="input-radio"><input type="radio" name="destino-preferido" id="campo">Campo</label>
+      </div>
+      <br>
+      <label for="merece-ganhar">Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?<br><textarea name="merece-ganhar" id="textarea-merece-ganhar" cols="30" rows="10" maxlength="500"></textarea></label>
+      <br>
+      <label for="input-data">Qual a melhor data para realizar sua viagem? <br>Data: <input type="text" name="data" id="input-data" placeholder="dd/mm/aaaa"></label>
+      <br>
+      <label for="check1"><input type="checkbox" name="checkbox" id="check1">Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?</label>
+      <br>
+      <label for="check2"><input type="checkbox" name="checkbox" id="check2">Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros.</label>
+      <br>
+      <button type="submit" id="button-enviar">Enviar</button>
+      <button type="button" id="button-limpar">Limpar</button>
+    </fieldset>
+  </form>
+  <script src="script.js"></script>
+</body>
+</html>
